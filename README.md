@@ -5,6 +5,7 @@
 yet another scoop bucket
 
 ## How do I install these manifests?
+
 ```pwsh
 scoop bucket add cetacea https://github.com/cscnk52/cetacea
 scoop install cetacea/<manifestname>
