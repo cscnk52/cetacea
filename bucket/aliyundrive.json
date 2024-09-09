@@ -7,7 +7,7 @@
         "url": "https://www.aliyundrive.com/protocol/service"
     },
     "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-6.3.3.exe#/aDrive-6.3.3.7z",
-    "hash": "sha512: e2e54303a1aa927596d6db1a1c8224a42f7bb4bfa605164064def0101cb91307e8f5245c82a1475e0ae52f69504dc4617a962219ca16255f3fe56d391afb8f09",
+    "hash": "sha512:e2e54303a1aa927596d6db1a1c8224a42f7bb4bfa605164064def0101cb91307e8f5245c82a1475e0ae52f69504dc4617a962219ca16255f3fe56d391afb8f09",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
         "    Remove-Item \"$dir\\$_\" -Recurse -Force",
