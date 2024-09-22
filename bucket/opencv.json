@@ -11,9 +11,9 @@
     },
     "extract_dir": "opencv\\build",
     "env_set": {
-        "OPENCV_DIR": "$dir\\x64\\vc14"
+        "OPENCV_DIR": "$dir\\x64\\vc16"
     },
-    "env_add_path": "x64\\vc14\\bin",
+    "env_add_path": "x64\\vc16\\bin",
     "checkver": {
         "github": "https://github.com/opencv/opencv/",
         "regex": "OpenCV ([\\d.]+)"
