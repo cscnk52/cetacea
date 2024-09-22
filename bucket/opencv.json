@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/opencv/opencv/releases/download/$version/opencv-$version-vc14_vc15.exe#/dl.7z",
+                "url": "https://github.com/opencv/opencv/releases/download/$version/opencv-$version-windows.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/opencv/opencv/releases",
-                    "regex": "$sha256 opencv-$version-windows.exe"
+                    "regex": "$sha256\\sopencv-$version-windows.exe"
                 }
             }
         }
