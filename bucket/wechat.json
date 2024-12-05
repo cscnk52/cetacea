@@ -11,7 +11,7 @@
     "shortcuts": [
         [
             "Weixin.exe",
-            "Weixin"
+            "Wechat"
         ]
     ],
     "post_install": [
