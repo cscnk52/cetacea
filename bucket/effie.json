@@ -18,6 +18,6 @@
         "regex": "effieapp_setup_([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.effie.co/effie/effie_setup_$version.exe"
+        "url": "https://download.effie.pro/effie/effieapp_setup_$version.exe"
     }
 }
