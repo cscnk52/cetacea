@@ -15,7 +15,7 @@
             "try { $detail = Invoke-WebRequest 'https://www.effie.pro/downloadfile/win' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
             "return $detail.Headers.Location"
         ],
-        "regex": "effieapp_setup_([\\d.]+)"
+        "regex": "effieapp_setup_([\\d.]+).exe"
     },
     "autoupdate": {
         "url": "https://download.effie.pro/effie/effieapp_setup_$version.exe"
