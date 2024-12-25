@@ -1,14 +1,14 @@
 {
     "homepage": "https://platform.wps.cn",
     "description": "Complete office suite",
-    "version": "12.1.0.19302",
+    "version": "12.1.0.18276",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.wps.com/eula"
     },
-    "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_19302.exe#/dl.7z",
-    "hash": "ed88cd086af24315a17614e9ab0d211cf31eb2dc07a9b24def622da7d1da7335",
-    "extract_dir": "$_11_",
+    "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_18276.exe#/dl.7z",
+    "hash": "f0e273a42b9542c674bb4287c0283f0b01405c69f51d33911d28a485fcd0d513",
+    "extract_dir": "$_$buildVersion_",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$EXEFILE\" -Switches '-t#'",
         "Remove-Item \"$dir\\*\" -Exclude '4.7z','2.7z' -Recurse",
@@ -37,9 +37,12 @@
             "WPS 配置工具"
         ]
     ],
-    "checkver": "WPS_Setup_(?<num>\\d+).exe",
+    "checkver": {
+        "url": "https://www.wps.cn/platformUrls",
+        "jsonpath": "$.productList[0].productVcode"
+    },
     "autoupdate": {
-        "url": "https://official-pacakge.wpscdn.cn/wps/download/WPS_Setup_$matchNum.exe#/dl.7z",
-        "extract_dir": "$_$majorVersion_"
+        "url": "https://official-pacakge.wpscdn.cn/wps/download/WPS_Setup_$buildVersion.exe#/dl.7z",
+        "extract_dir": "$_$buildVersion_"
     }
 }
