@@ -1,0 +1,21 @@
+{
+    "version": "0.3.11",
+    "description": "一个极简启动器",
+    "homepage": "https://sofast.fun/",
+    "license": "Unlicense",
+    "url": "https://github.com/Blushyes/sofast-release/releases/download/v0.3.11/sofast_windows_v0.3.11_setup.exe#/dl.7z",
+    "hash": "6cc1c130fcc55f664edb8be55f92e59838da5fb49a8bc157f1aa18538dce06a5",
+    "bin": "sofast.exe",
+    "shortcuts": [
+        [
+            "sofast.exe",
+            "sofast"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Blushyes/sofast-release"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Blushyes/sofast-release/releases/download/v$version/sofast_windows_v$version_setup.exe#/dl.7z"
+    }
+}
