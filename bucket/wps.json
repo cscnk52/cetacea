@@ -42,7 +42,6 @@
         "jsonpath": "$.productList[0].productVcode"
     },
     "autoupdate": {
-        "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_$buildVersion.exe#/dl.7z",
-        "extract_dir": "$_$buildVersion_"
+        "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_$buildVersion.exe#/dl.7z"
     }
 }
