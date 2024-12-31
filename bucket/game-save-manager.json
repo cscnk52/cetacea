@@ -1,0 +1,28 @@
+{
+    "version": "2.0.2",
+    "description": "Easily backup and restore your game saves anytime",
+    "homepage": "https://github.com/dyang886/Game-Save-Manager/",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dyang886/Game-Save-Manager/releases/download/v2.0.2/Game.Save.Manager.Setup.2.0.2.exe",
+            "hash": "D0FAE7A08D58102C14AEFC5BB8744F58C38CC2184CC9A28C42ACE7D967156D56"
+        }
+    },
+    "innosetup": true,
+    "bin": "Game Save Manager.exe",
+    "shortcuts": [
+        [
+            "Game Save Manager.exe",
+            "Game Save Manager"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dyang886/Game-Save-Manager/releases/download/v$version/Game.Save.Manager.Setup.$version.exe"
+            }
+        }
+    }
+}
