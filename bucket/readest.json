@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/chrox/readest/releases/download/v0.9.0/Readest_0.9.0_x64-setup.exe#/dl.7z",
-            "hash": "4f1220ba4b230b0e9b1364d1b13e9a24397e37092b6d247f30b2b933789ad73b"
+            "hash": "186dade1a72ff9702ab0f3a6a2ea5aa34426b8b60dc236efafc4feb1f0d03107"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
