@@ -1,5 +1,5 @@
 {
-    "version": "0.9.2",
+    "version": "0.9.1",
     "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.",
     "homepage": "https://readest.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chrox/readest/releases/download/v0.9.2/Readest_0.9.2_x64-setup.exe#/dl.7z",
-            "hash": "5e43d62c9b43dd3a0c0c4ac250f32c6139309311cc01e5fdc7a9aa656f6640f0"
+            "url": "https://github.com/chrox/readest/releases/download/v0.9.1/Readest_0.9.1_x64-setup.exe#/dl.7z",
+            "hash": "b30ab1b380ee546899be96f381029842cc148bca2242a85da5f03a10dd978e81"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
@@ -38,8 +38,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/chrox/readest/releases/latest",
-        "regex": "/releases/tag/v([\\d.]+)"
+        "github": "https://github.com/chrox/readest"
     },
     "autoupdate": {
         "architecture": {
