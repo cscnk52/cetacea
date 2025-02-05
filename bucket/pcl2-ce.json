@@ -1,13 +1,13 @@
 {
-    "version": "2.10.0",
+    "version": "2.10.1",
     "description": "PCL2 社区版，可体验上游暂未合并的功能",
     "homepage": "https://github.com/PCL-Community/PCL2-CE",
     "license": {
         "identifier": "Proprietary",
         "url": "https://github.com/PCL-Community/PCL2-CE/blob/main/LICENCE"
     },
-    "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.10.0/PCL2_CE.exe",
-    "hash": "9b612ce31861cddf7abae604cfada7b9c51e86e0e78a9e901ebcf8516ea8ec22",
+    "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.10.1/PCL2_CE.exe",
+    "hash": "51e31d5d0d4da18b395ffda008c35cde14359a16a6d6eb50fe7d310d6c73bbda",
     "pre_install": [
         "ensure \"$persist_dir\\PCL\" | Out-Null",
         "ensure \"$persist_dir\\.minecraft\" | Out-Null",
