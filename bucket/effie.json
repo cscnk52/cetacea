@@ -6,12 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://www.effie.pro/terms/"
     },
-    "architecture": {
-        "32bit": {
-            "url": "https://download.effie.pro/effie/effieapp_setup_4.3.3.exe",
-            "hash": "4cf707904a81f4518b73be5ac59558fa8008ecae538d96cc79bd1b6febcf3622"
-        }
-    },
+    "url": "https://download.effie.pro/effie/effieapp_setup_4.3.3.exe",
+    "hash": "4cf707904a81f4518b73be5ac59558fa8008ecae538d96cc79bd1b6febcf3622",
     "innosetup": true,
     "shortcuts": [
         [
@@ -27,10 +23,6 @@
         "regex": "effieapp_setup_([\\d.]+).exe"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://download.effie.pro/effie/effieapp_setup_$version.exe"
-            }
-        }
+        "url": "https://download.effie.pro/effie/effieapp_setup_$version.exe"
     }
 }
