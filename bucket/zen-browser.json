@@ -1,16 +1,16 @@
 {
-    "version": "1.7.4b",
+    "version": "1.7.5b",
     "description": "🌀 Experience tranquillity while browsing the web without people tracking you! Based on Firefox",
     "homepage": "https://www.zen-browser.app/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zen-browser/desktop/releases/download/1.7.4b/zen.installer.exe#/dl.7z",
-            "hash": "66eac3d9840b594e0e7ae236c6daba024e02aa68c289fd85cd1424321410ceed"
+            "url": "https://github.com/zen-browser/desktop/releases/download/1.7.5b/zen.installer.exe#/dl.7z",
+            "hash": "541b53bbf030487ec04992e4d6383298bdc3a870c7332300deb8909ee8951fd0"
         },
         "arm64": {
-            "url": "https://github.com/zen-browser/desktop/releases/download/1.7.4b/zen.installer-arm64.exe#/dl.7z",
-            "hash": "352e15d8b9ded5ad0c7db0bd96a728a12f29047dec0932fb71f93d774149b876"
+            "url": "https://github.com/zen-browser/desktop/releases/download/1.7.5b/zen.installer-arm64.exe#/dl.7z",
+            "hash": "1d33b8f047aec1c156c94e842a535ee7cb0885b7adcbc67b2dac6574344f6233"
         }
     },
     "extract_dir": "core",
