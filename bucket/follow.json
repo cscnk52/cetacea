@@ -1,5 +1,5 @@
 {
-    "version": "0.3.3-beta.0",
+    "version": "0.3.4-beta.0",
     "description": "🧡 Next generation information browser.",
     "homepage": "https://app.follow.is/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RSSNext/Follow/releases/download/v0.3.3-beta.0/Follow-0.3.3-beta.0-windows-x64.exe#/dl.7z",
-            "hash": "sha512:cb2854d949c2ff6aff16a81535f56c384b1846cc3d1ccf2a83fc0d93c65b2a6120da7c9f7799943e4082caf99880e39f0995d967f5cc7396ce4db78ffd05342f"
+            "url": "https://github.com/RSSNext/Follow/releases/download/v0.3.4-beta.0/Follow-0.3.4-beta.0-windows-x64.exe#/dl.7z",
+            "hash": "sha512:a5f6e8aa6194bc474301ef59f47483a488af0097527ae4a28508d66007e9c61d3eee1520ea4d4552ec87bd20329a82f464643f5e6f02f71c53929e8d99410a9c"
         }
     },
     "pre_install": [
