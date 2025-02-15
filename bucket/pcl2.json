@@ -6,7 +6,7 @@
         "identifier": "Proprietary",
         "url": "https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE"
     },
-    "url": "https://github.com/Hex-Dragon/PCL2/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip",
+    "url": "https://github.com/Hex-Dragon/PCL2/raw/refs/tags/2.8.13/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip",
     "hash": "896e3c1e1c94e25744b122a4035140dba06e8ea779f6e0f42e1809311856c2a2",
     "pre_install": [
         "ensure \"$persist_dir\\PCL\" | Out-Null",
@@ -29,6 +29,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Hex-Dragon/PCL2/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+        "url": "https://github.com/Hex-Dragon/PCL2/raw/refs/tags/$version/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
     }
 }
