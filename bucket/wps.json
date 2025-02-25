@@ -1,13 +1,13 @@
 {
     "homepage": "https://platform.wps.cn",
     "description": "Complete office suite",
-    "version": "12.1.0.20305",
+    "version": "12.1.0.19770",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.wps.com/eula"
     },
-    "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_20305.exe#/dl.7z",
-    "hash": "72628c076e8f8ab9666c5e85fea92f2f5cad7ce7127939b7f9529c448442bb14",
+    "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_19770.exe#/dl.7z",
+    "hash": "ca6f0e5a83bd82deb914c54b8b813f5eed9f6725b4cb1a08cbedb080f1224cb9",
     "extract_dir": "$_11_",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$EXEFILE\" -Switches '-t#'",
@@ -16,11 +16,26 @@
         "Expand-7zipArchive \"$dir\\2.7z\" -ExtractDir 'CONTROL\\office6' -Removal"
     ],
     "shortcuts": [
-        ["wpsoffice.exe", "WPS Office"],
-        ["wps.exe", "WPS 文字"],
-        ["et.exe", "WPS 表格"],
-        ["wpp.exe", "WPS 演示"],
-        ["ksomisc.exe", "WPS 配置工具"]
+        [
+            "wpsoffice.exe",
+            "WPS Office"
+        ],
+        [
+            "wps.exe",
+            "WPS 文字"
+        ],
+        [
+            "et.exe",
+            "WPS 表格"
+        ],
+        [
+            "wpp.exe",
+            "WPS 演示"
+        ],
+        [
+            "ksomisc.exe",
+            "WPS 配置工具"
+        ]
     ],
     "checkver": {
         "url": "https://www.wps.cn/platformUrls",
