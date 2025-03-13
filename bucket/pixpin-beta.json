@@ -25,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&update_type=0&sys=win&ver=0",
+        "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&update_type=1&sys=win&ver=0",
         "jsonpath": "$.ver_info.version"
     },
     "autoupdate": {
