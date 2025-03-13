@@ -6,15 +6,18 @@
     "architecture": {
         "64bit": {
             "url": "https://download.zotero.org/client/release/7.0.14/Zotero-7.0.14_win-x64.zip",
-            "hash": "0510085ecd6e405926b65f75c689df4ae5e4d4b5301b7e52dee28a67c230e12e"
+            "hash": "0510085ecd6e405926b65f75c689df4ae5e4d4b5301b7e52dee28a67c230e12e",
+            "extract_dir": "Zotero_win-x64"
         },
         "32bit": {
             "url": "https://download.zotero.org/client/release/7.0.14/Zotero-7.0.14_win32.zip",
-            "hash": "3e914c2c8c0ef547217354f7279a40b0a3d94021376bf999e42aedbc205d0380"
+            "hash": "3e914c2c8c0ef547217354f7279a40b0a3d94021376bf999e42aedbc205d0380",
+            "extract_dir": "Zotero_win32"
         },
         "arm64": {
             "url": "https://download.zotero.org/client/release/7.0.14/Zotero-7.0.14_win-arm64.zip",
-            "hash": "4ade9c89a815053777c5c467cc13cee3dae83176f82029b71f52255de5901363"
+            "hash": "4ade9c89a815053777c5c467cc13cee3dae83176f82029b71f52255de5901363",
+            "extract_dir": "Zotero_win-arm64"
         }
     },
     "bin": "zotero.exe",
