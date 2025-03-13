@@ -21,6 +21,15 @@
             "Zotero"
         ]
     ],
+    "notes": [
+        "To register the 'zotero://' URL protocol, run:",
+        "$dir\\install-zotero-url-protocol.ps1",
+        "",
+        "Existing 'zotero://' URL protocol may be overwrite.",
+        "",
+        "To unregister the 'zotero://' URL protocol, run:",
+        "$dir\\uninstall-zotero-url-protocol.ps1"
+    ],
     "post_install": [
         "$scriptsDir = \"$bucketsdir\\$bucket\\scripts\"",
         "Get-ChildItem \"$scriptsDir\\zotero\\*.ps1\" | ForEach-Object {",
