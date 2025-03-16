@@ -1,6 +1,7 @@
 # Cetacea
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/cscnk52/cetacea/ci.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/cscnk52/cetacea/excavator.yml)
 
 yet another scoop bucket
 
