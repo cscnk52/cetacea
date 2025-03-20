@@ -1,7 +1,7 @@
 # Cetacea
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/cscnk52/cetacea/ci.yml?label=CI&link=https%3A%2F%2Fgithub.com%2Fcscnk52%2Fcetacea%2Factions%2Fworkflows%2Fci.yml)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/cscnk52/cetacea/excavator.yml?label=Excavator&link=https%3A%2F%2Fgithub.com%2Fcscnk52%2Fcetacea%2Factions%2Fworkflows%2Fexcavator.yml)
+[![Tests](https://github.com/cscnk52/cetacea/actions/workflows/ci.yml/badge.svg)](https://github.com/cscnk52/cetacea/actions/workflows/ci.yml)
+[![Excavator](https://github.com/cscnk52/cetacea/actions/workflows/excavator.yml/badge.svg)](https://github.com/cscnk52/cetacea/actions/workflows/excavator.yml)
 
 yet another scoop bucket
 
