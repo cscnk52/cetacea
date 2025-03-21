@@ -4,7 +4,7 @@
     "homepage": "https://pc.weixin.qq.com/",
     "license": {
         "identifier": "Proprietary",
-        "url": "https://www.wechat.com/en/service_terms.html"
+        "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement"
     },
     "architecture": {
         "64bit": {
