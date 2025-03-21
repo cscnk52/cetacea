@@ -15,10 +15,19 @@
     "shortcuts": [
         [
             "Weixin.exe",
-            "Wechat"
+            "Weixin"
         ]
     ],
-    "post_install": "New-Item -Path \"HKCU:\\Software\\Tencent\\Weixin\" -Name \"InstallPath\" -Value \"$dir\" -Force -ErrorAction SilentlyContinue | Out-Null",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\install.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\`$*\" -Recurse",
+            "$config_path = \"$env:APPDATA\\Tencent\\xwechat\\config\"",
+            "ensure $config_path | Out-Null",
+            "Set-Content -NoNewline -Path \"$config_path\\51a1fffea11325a1e4104c6b3de47af7.ini\" -Value \"$persist_dir\"",
+            "New-Item -Path \"HKCU:\\Software\\Tencent\\Weixin\" -Name \"InstallPath\" -Value \"$dir\" -Force -ErrorAction SilentlyContinue | Out-Null"
+        ]
+    },
     "checkver": {
         "script": [
             "$prefix = 'https://github.com/SpecterShell/Dumplings/raw/refs/heads/main/Tasks/Tencent.WeChat.Universal'",
