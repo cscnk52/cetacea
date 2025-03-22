@@ -9,6 +9,7 @@
             "hash": "5e6f2cc3074ed25569d8d97d5caa94b12fa4fab3ee8ed6b00eb71e82692a2488"
         }
     },
+    "extract_dir": "WechatRealFriends_$version",
     "bin": "WechatRealFriends.exe",
     "shortcuts": [
         [
