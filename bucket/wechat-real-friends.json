@@ -1,0 +1,27 @@
+{
+    "version": "1.0.2",
+    "description": "微信好友关系一键检测，基于微信ipad协议，看看有没有朋友偷偷删掉或者拉黑你",
+    "homepage": "https://github.com/StrayMeteor3337/WechatRealFriends",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/StrayMeteor3337/WechatRealFriends/releases/download/v1.0.2/WechatRealFriends_1.0.2.zip",
+            "hash": "ac62b4e7892b7bbd3eaeac4d12e8d2e0ec40beb079d1839e9ecd61066da40b5b"
+        }
+    },
+    "bin": "WechatRealFriends.exe",
+    "shortcuts": [
+        [
+            "WechatRealFriends.exe",
+            "WechatRealFriends"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/StrayMeteor3337/WechatRealFriends/releases/download/v$version/WechatRealFriends_$version.zip"
+            }
+        }
+    }
+}
