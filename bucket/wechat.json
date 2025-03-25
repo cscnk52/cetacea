@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
+            "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v4.0.3.14/weixin_4.0.3.14.exe",
             "hash": "d6a1451485bba76c4cc50b2c26eadfa21a1dd67d96f3bc01213dfac018ab08ea"
         }
     },
@@ -29,24 +29,12 @@
         ]
     },
     "checkver": {
-        "script": [
-            "$prefix = 'https://github.com/SpecterShell/Dumplings/raw/refs/heads/main/Tasks/Tencent.WeChat.Universal'",
-            "$stateYamlUrl = $prefix + '/State.yaml'",
-            "$stateContent = Invoke-RestMethod -Uri $stateYamlUrl -UseBasicParsing",
-            "$logFileUrl = \"$prefix/$stateContent\"",
-            "$logContent = Invoke-RestMethod -Uri $logFileUrl -UseBasicParsing",
-            "Write-Output $logContent"
-        ],
-        "regex": "Version:\\s*([0-9.]+)"
+        "github": "https://github.com/cscnk52/wechat-windows-versions"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
-                "hash": {
-                    "url": "https://github.com/microsoft/winget-pkgs/raw/refs/heads/master/manifests/t/Tencent/WeChat/Universal/$version/Tencent.WeChat.Universal.installer.yaml",
-                    "regex": "InstallerSha256:\\s+([a-fA-F0-9]{64})"
-                }
+                "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v$version/weixin_$version.exe"
             }
         }
     }
