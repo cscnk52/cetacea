@@ -1,13 +1,13 @@
 {
-    "version": "5.0.5",
+    "version": "5.0.7",
     "description": "A list making, mind mapping, note taking, focused markup-based writing tool that helps to visualize your ideas with mindmaps and outlines.",
     "homepage": "https://www.effie.co/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.effie.co/terms/"
     },
-    "url": "https://download.effie.co/effie/effie_setup_5.0.5.exe",
-    "hash": "deaea513396a6ca29100654d65445b5841be3f0e9db923b223fad67d32c1afa5",
+    "url": "https://download.effie.co/effie/effie_setup_5.0.7.exe",
+    "hash": "3d569d01688147d58555f39bdbe56077d1718ba16d0264e718e9f1979f9236b2",
     "innosetup": true,
     "shortcuts": [
         [
