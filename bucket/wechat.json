@@ -12,12 +12,6 @@
             "hash": "83df070fc83225e9b3ab89eb8751997e685445e47b86003c4059ce7746262a92"
         }
     },
-    "shortcuts": [
-        [
-            "Weixin.exe",
-            "Weixin"
-        ]
-    ],
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\install.7z\" \"$dir\" -Removal",
@@ -28,6 +22,12 @@
             "New-Item -Path \"HKCU:\\Software\\Tencent\\Weixin\" -Name \"InstallPath\" -Value \"$dir\" -Force -ErrorAction SilentlyContinue | Out-Null"
         ]
     },
+    "shortcuts": [
+        [
+            "Weixin.exe",
+            "Weixin"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/cscnk52/wechat-windows-versions"
     },

@@ -12,6 +12,15 @@
             "hash": "b6dccb7b113886011426637e624de9b3ebdf582edc3b0ed12cd44fa69c1b446d"
         }
     },
+    "post_install": [
+        "if (!(Test-Path \"$dir\\USER_DATA\\*\") -and (Test-Path \"$env:LocalAppData\\Thorium\\User Data\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:LocalAppData\\Thorium\\User Data\\*\" \"$dir\\USER_DATA\" -Recurse",
+        "}"
+    ],
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\bin\\thorium.exe"
+    },
     "bin": [
         [
             "bin\\thorium.exe",
@@ -26,15 +35,6 @@
             "--user-data-dir=\"$dir\\USER_DATA\""
         ]
     ],
-    "post_install": [
-        "if (!(Test-Path \"$dir\\USER_DATA\\*\") -and (Test-Path \"$env:LocalAppData\\Thorium\\User Data\")) {",
-        "    info '[Portable Mode]: Copying user data...'",
-        "    Copy-Item \"$env:LocalAppData\\Thorium\\User Data\\*\" \"$dir\\USER_DATA\" -Recurse",
-        "}"
-    ],
-    "env_set": {
-        "CHROME_EXECUTABLE": "$dir\\bin\\thorium.exe"
-    },
     "persist": "USER_DATA",
     "checkver": {
         "github": "https://github.com/Alex313031/Thorium-Win",

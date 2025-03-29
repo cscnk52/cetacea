@@ -1,7 +1,7 @@
 {
-    "homepage": "https://www.todesk.com/",
-    "description": "A unlimited speed multifunctional remote control software",
     "version": "4.7.6.3",
+    "description": "A unlimited speed multifunctional remote control software",
+    "homepage": "https://www.todesk.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {

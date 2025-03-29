@@ -17,15 +17,15 @@
         "    Add-Content \"$conf\" \"$content\"",
         "}"
     ],
-    "persist": [
-        "PCL",
-        ".minecraft"
-    ],
     "shortcuts": [
         [
             "PCL2_CE.exe",
             "PCL2 CE"
         ]
+    ],
+    "persist": [
+        "PCL",
+        ".minecraft"
     ],
     "checkver": "github",
     "autoupdate": {

@@ -10,12 +10,6 @@
         }
     },
     "innosetup": true,
-    "shortcuts": [
-        [
-            "QuarkCloudDrive.exe",
-            "QuarkCloudDrive"
-        ]
-    ],
     "pre_install": [
         "Move-Item -Force -Path \"$dir\\app-$version\\*\" -Destination \"$dir\"",
         "Remove-Item -Force -Recurse -Path \"$dir\\app-$version\""
@@ -28,6 +22,12 @@
             "Remove-Item $runtimeData -Force -Recurse -ErrorAction SilentlyContinue"
         ]
     },
+    "shortcuts": [
+        [
+            "QuarkCloudDrive.exe",
+            "QuarkCloudDrive"
+        ]
+    ],
     "checkver": {
         "url": "https://pan.quark.cn/api/client_version",
         "jsonpath": "$.data.clouddrive_backup_packages[0].winInstallerUrl",

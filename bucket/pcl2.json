@@ -17,15 +17,15 @@
         "    Add-Content \"$conf\" \"$content\"",
         "}"
     ],
-    "persist": [
-        "PCL",
-        ".minecraft"
-    ],
     "shortcuts": [
         [
             "Plain Craft Launcher 2.exe",
             "PCL2"
         ]
+    ],
+    "persist": [
+        "PCL",
+        ".minecraft"
     ],
     "checkver": "github",
     "autoupdate": {

@@ -13,16 +13,16 @@
         }
     },
     "extract_dir": "PixPin",
-    "persist": [
-        "History",
-        "Data",
-        "Config"
-    ],
     "shortcuts": [
         [
             "PixPin.exe",
             "PixPin"
         ]
+    ],
+    "persist": [
+        "History",
+        "Data",
+        "Config"
     ],
     "checkver": {
         "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&update_type=1&sys=win&ver=0",

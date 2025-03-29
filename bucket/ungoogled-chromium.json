@@ -15,6 +15,9 @@
             "extract_dir": "ungoogled-chromium_134.0.6998.165-1.1_windows_x86"
         }
     },
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\chrome.exe"
+    },
     "bin": [
         [
             "chrome.exe",
@@ -29,9 +32,6 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "env_set": {
-        "CHROME_EXECUTABLE": "$dir\\chrome.exe"
-    },
     "persist": "User Data",
     "checkver": {
         "github": "https://github.com/ungoogled-software/ungoogled-chromium-windows",
