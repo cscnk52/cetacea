@@ -15,12 +15,6 @@
     },
     "extract_dir": "PFiles64\\usbipd-win",
     "bin": "usbipd.exe",
-    "shortcuts": [
-        [
-            "usbipd.exe",
-            "usbipd"
-        ]
-    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {

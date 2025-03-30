@@ -11,12 +11,6 @@
         }
     },
     "bin": "WechatRealFriends.exe",
-    "shortcuts": [
-        [
-            "WechatRealFriends.exe",
-            "WechatRealFriends"
-        ]
-    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
