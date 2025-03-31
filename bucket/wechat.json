@@ -1,7 +1,7 @@
 {
     "version": "4.0.3.19",
     "description": "微信 Windows 版 QT 测试版",
-    "homepage": "https://pc.weixin.qq.com/",
+    "homepage": "https://windows.weixin.qq.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement"
