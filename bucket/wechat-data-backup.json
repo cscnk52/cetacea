@@ -1,12 +1,12 @@
 {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "A WeChat history backup tool.",
     "homepage": "https://github.com/git-jiadong/wechatDataBackup",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/git-jiadong/wechatDataBackup/releases/download/v1.2.2/wechatDataBackup.exe",
-            "hash": "57330f07b13d7675838ce7fbc6041fca0d92e932df1d64e9010e040fc05b3152"
+            "url": "https://github.com/git-jiadong/wechatDataBackup/releases/download/v1.2.3/wechatDataBackup.exe",
+            "hash": "bbd2d7532ba71303ea826d30c88d0f78a6ab5955e3695841c578bbedec3117de"
         }
     },
     "bin": "wechatDataBackup.exe",
