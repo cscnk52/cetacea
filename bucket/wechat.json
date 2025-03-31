@@ -1,5 +1,5 @@
 {
-    "version": "4.0.3.18",
+    "version": "4.0.3.19",
     "description": "微信 Windows 版 QT 测试版",
     "homepage": "https://pc.weixin.qq.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v4.0.3.18/weixin_4.0.3.18.exe#/dl.7z",
-            "hash": "83df070fc83225e9b3ab89eb8751997e685445e47b86003c4059ce7746262a92"
+            "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v4.0.3.19/weixin_4.0.3.19.exe#/dl.7z",
+            "hash": "0a2f9b82b6cc1230212c9804b8914244f422c3066269e1aac669822ec1573e3e"
         }
     },
     "installer": {
