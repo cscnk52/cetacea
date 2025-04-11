@@ -1,0 +1,46 @@
+{
+    "version": "2.23.0",
+    "description": "Python package and dependency manager supporting the latest PEP standards",
+    "homepage": "http://pdm-project.org",
+    "license": "MIT",
+    "depends": "python",
+    "url": "https://files.pythonhosted.org/packages/53/bf/d1430d5449a0856113b83209c79165c25a14d1f8a7ef8b4b2dc55f241d29/pdm-2.23.0-py3-none-any.whl",
+    "hash": "965087f3ce1ad1f9ef84dc11c499ef5d1c5e0a5f09a1437148d9beaf7502d6c9",
+    "installer": {
+        "script": [
+            "python -m venv \"$dir\\venv\"",
+            "& \"$dir\\venv\\Scripts\\python.exe\" -m pip install \"$dir\\$fname\""
+        ]
+    },
+    "post_install": [
+        "if (-not (Test-Path -Path $PROFILE\\..\\Completions -PathType Container)) {",
+        "    mkdir $PROFILE\\..\\Completions",
+        "    echo @'",
+        "Get-ChildItem \"$PROFILE\\..\\Completions\\\" | ForEach-Object {",
+        "    . $_.FullName",
+        "}",
+        "'@ | Out-File -Append -Encoding utf8 $PROFILE",
+        "}",
+        "& \"$dir\\venv\\Scripts\\pdm.exe\" completion powershell | Out-File -Encoding utf8 $PROFILE\\..\\Completions\\pdm_completion.ps1"
+    ],
+    "uninstaller": {
+        "script": [
+            "$oldPath = [Environment]::GetEnvironmentVariable(\"PYTHONPATH\", [System.EnvironmentVariableTarget]::User)",
+            "If (-not [string]::IsNullOrWhiteSpace($oldPath)) {",
+            "    $newPath = ($oldPath.Split(';') | Where { $_ -notlike \"$dir\\venv\\*\" }) -join ';'",
+            "    [Environment]::SetEnvironmentVariable(\"PYTHONPATH\", $newPath, [System.EnvironmentVariableTarget]::User)",
+            "}",
+            "Remove-Item -Path $PROFILE\\..\\Completions\\pdm_completion.ps1 -ErrorAction SilentlyContinue"
+        ]
+    },
+    "bin": "venv\\Scripts\\pdm.exe",
+    "checkver": {
+        "url": "https://pypi.org/pypi/pdm/json",
+        "jp": "$.urls[?(@.packagetype == 'bdist_wheel')].url",
+        "re": "https://files.pythonhosted.org/packages/(.*/pdm-(?<version>[\\d.]+(?:post\\d+)?)-.*\\.whl)",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "url": "https://files.pythonhosted.org/packages/$match1"
+    }
+}
