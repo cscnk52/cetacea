@@ -1,12 +1,12 @@
 {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "description": "一个极简启动器",
     "homepage": "https://sofast.fun/",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Blushyes/sofast-release/releases/download/v0.4.4/sofast_windows_v0.4.4_setup.exe#/dl.7z",
-            "hash": "067e705346a09b5a969f7bbd06d61fce49c811083eb0db31888cf00116129d6a"
+            "url": "https://github.com/Blushyes/sofast-release/releases/download/v0.4.5/sofast_windows_v0.4.5_setup.exe#/dl.7z",
+            "hash": "8ee1da273048b45f10305a67d9e73c5ed21c9e3d1d6c53616b067c9c9d7c4db8"
         }
     },
     "bin": "sofast.exe",
