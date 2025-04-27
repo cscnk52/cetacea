@@ -1,0 +1,24 @@
+{
+    "version": "3.6.0",
+    "description": "Native Web-Based SQL IDE, support desktop and web management for enterprise. It's a cross-platform database tool for everyone working with data. It supports all popular databases like MySQL, MariaDB, PostgreSQL, SQLite, Hive, Impala, Hadoop and more.",
+    "homepage": "https://www.sqlynx.com/",
+    "license": "Unknown",
+    "url": "https://maicong-software-1302946156.cos.ap-beijing.myqcloud.com/software/sqlynx_win_3.6.0.zip",
+    "hash": "0c0bb3ee805e2d3a87b10c895ae135de252f22178a00bb73450c38b90db3a012",
+    "extract_dir": "sqlynx_win_3.6.0",
+    "bin": "SQLynx.exe",
+    "shortcuts": [
+        [
+            "SQLynx.exe",
+            "SQLynx"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.sqlynx.com/server/product/productVersionQuery?productName=sqlynx_win",
+        "jsonpath": "$.data[0].productVersionName"
+    },
+    "autoupdate": {
+        "url": "https://maicong-software-1302946156.cos.ap-beijing.myqcloud.com/software/sqlynx_win_$version.zip",
+        "extract_dir": "sqlynx_win_$version"
+    }
+}
