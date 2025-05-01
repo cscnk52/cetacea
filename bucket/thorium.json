@@ -1,6 +1,6 @@
 {
     "version": "130.0.6723.174",
-    "description": "Chromium fork for Linux, Windows, MacOS, Android, and Raspberry Pi named after radioactive element No. 90.",
+    "description": "Chromium fork for Linux, Windows, MacOS, Android, and Raspberry Pi named after radioactive element No. 90. Compiled with AVX2 support. If your CPU does not support AVX2 DO NOT INSTALL. Use CPU-Z to determine if your CPU supports AVX2.",
     "homepage": "https://thorium.rocks/",
     "license": {
         "identifier": "BSD 3-Clause",
@@ -8,10 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/Thorium_SSE4_130.0.6723.174.zip",
-            "hash": "b6dccb7b113886011426637e624de9b3ebdf582edc3b0ed12cd44fa69c1b446d"
+            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/Thorium_AVX2_130.0.6723.174.zip",
+            "hash": "0cdeef8c4f32d9cded5c36e72cb949e305a8fb0b559334ebe626d0aa379364f5"
         }
     },
+    "extract_dir": "BIN",
     "post_install": [
         "if (!(Test-Path \"$dir\\USER_DATA\\*\") -and (Test-Path \"$env:LocalAppData\\Thorium\\User Data\")) {",
         "    info '[Portable Mode]: Copying user data...'",
@@ -19,18 +20,18 @@
         "}"
     ],
     "env_set": {
-        "CHROME_EXECUTABLE": "$dir\\bin\\thorium.exe"
+        "CHROME_EXECUTABLE": "$dir\\thorium.exe"
     },
     "bin": [
         [
-            "bin\\thorium.exe",
+            "thorium.exe",
             "thorium",
             "--user-data-dir=\"$dir\\USER_DATA\""
         ]
     ],
     "shortcuts": [
         [
-            "bin\\thorium.exe",
+            "thorium.exe",
             "Thorium",
             "--user-data-dir=\"$dir\\USER_DATA\""
         ]
@@ -38,12 +39,12 @@
     "persist": "USER_DATA",
     "checkver": {
         "github": "https://github.com/Alex313031/Thorium-Win",
-        "regex": "/releases/tag/M(?<version>(?:\\d+\\.){3}\\d+)"
+        "regex": "/releases/tag/M(?:v|V)?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE4_$version.zip"
+                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_AVX2_$version.zip"
             }
         }
     }
