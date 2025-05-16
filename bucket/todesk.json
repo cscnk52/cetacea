@@ -5,8 +5,7 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://dl.todesk.com/irrigation/ToDesk_4.7.7.1.exe#/dl.7z",
-            "hash": "78bacfba23438526553960a45ef7dae817dab185421b00be33c8a70d155c1237"
+            "url": "https://dl.todesk.com/irrigation/ToDesk_4.7.7.1.exe#/dl.7z"
         }
     },
     "pre_install": [
