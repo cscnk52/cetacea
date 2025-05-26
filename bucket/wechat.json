@@ -46,7 +46,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v$version/weixin_$version.exe#/dl.7z"
+                "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v$version/weixin_$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/cscnk52/wechat-windows-versions/releases/tag/v$version",
+                    "regex": "<strong>SHA256:</strong> $sha256"
+                }
             }
         }
     }
