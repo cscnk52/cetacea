@@ -1,10 +1,10 @@
 {
     "version": "4.0.5.23",
-    "description": "Wechat 4.0, Free messaging and calling app by Tencent, Unified cross-device experience",
-    "homepage": "https://windows.weixin.qq.com/",
+    "description": "Free messaging and calling app by Tencent",
+    "homepage": "https://www.wechat.com/",
     "license": {
         "identifier": "Proprietary",
-        "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement"
+        "url": "https://www.wechat.com/en/service_terms.html"
     },
     "architecture": {
         "64bit": {
@@ -36,7 +36,7 @@
     "shortcuts": [
         [
             "Weixin.exe",
-            "Weixin"
+            "WeChat"
         ]
     ],
     "persist": "xwechat_files",
