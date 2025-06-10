@@ -1,5 +1,5 @@
 {
-    "version": "2.11.1",
+    "version": "2.11.2",
     "description": "PCL2 社区版，可体验上游暂未合并的功能",
     "homepage": "https://github.com/PCL-Community/PCL2-CE",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.11.1/PCL2_CE_Release_x64.exe",
-            "hash": "db465dc724bd767df93788220002f3e4a5cf45617a9f748b1e739414ec625305",
+            "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.11.2/PCL2_CE_Release_x64.exe",
+            "hash": "4c787b64af916bc2e1e405c14bec84612ee5973f0a7dfdb490be7c38bfdb5406",
             "shortcuts": [
                 [
                     "PCL2_CE_x64.exe",
