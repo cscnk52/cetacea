@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/tombi-toml/tombi/releases/download/v0.4.6/tombi-cli-0.4.6-x86_64-pc-windows-msvc.zip",
-            "hash": "1615eed140039bd58e7089109883b1c434de5d6de8f64a993e6e8c80ca57bdf9"
+            "hash": "a6ad397e94e693752d73bd5754d7183141791d8c7a42b3f279dbc3ee9c87ed5b"
         },
         "arm64": {
             "url": "https://github.com/tombi-toml/tombi/releases/download/v0.4.6/tombi-cli-0.4.6-aarch64-pc-windows-msvc.zip",
-            "hash": "65a50c5d3b78f6014e6bc6d64eb6dc1d4992bc236589c9bb29e5609fc3454674"
+            "hash": "345a896186cdf69c74fab3cb863ff1f27c57f778a6747ceda3242081cf52b8dd"
         }
     },
     "bin": "tombi.exe",
