@@ -33,7 +33,7 @@
             "$jsUrl = [regex]::Match($cont, $pattern).Value",
             "Invoke-WebRequest -Uri $jsUrl"
         ],
-        "regex": "QQNT/Windows/QQ_([\\d\\.]+)_([\\d]+)_x86_01.exe",
+        "regex": "QQNT/Windows/QQ_([\\d\\.]+)_([\\d]+)_x64_01.exe",
         "replace": "${1}.${2}"
     },
     "autoupdate": {
