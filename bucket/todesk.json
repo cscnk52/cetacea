@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.todesk.com/irrigation/ToDesk_4.8.1.5.exe#/dl.7z",
-            "hash": "a14aca9ac5cf4fb20ef343af16bbc6eb6caa15ca184ae245179f6a650a82059c"
+            "hash": "1858470244cfa60dbed3c40bb9b91d84e6f4929d924f2d1cdc369dd7f7d30158"
         }
     },
     "pre_install": [
