@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.pixpinapp.com/PixPin_zh-cn_$version.zip"
+                "url": "https://download.pixpinapp.com/PixPin_cn_zh-cn_$version.zip"
             }
         }
     }
