@@ -12,7 +12,8 @@
     },
     "bin": "greptime.exe",
     "checkver": {
-        "github": "https://github.com/GreptimeTeam/greptimedb"
+        "github": "https://github.com/GreptimeTeam/greptimedb",
+        "regex": "([\\d.]+-(?:alpha|beta)[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
