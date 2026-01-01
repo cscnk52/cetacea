@@ -1,5 +1,5 @@
 {
-    "version": "4.1.8",
+    "version": "4.1.9",
     "description": "A new AList Fork to Anti Trust Crisis",
     "homepage": "https://oplist.org/",
     "license": {
@@ -7,16 +7,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OpenListTeam/OpenList/releases/download/v4.1.8/openlist-windows-amd64.zip",
-            "hash": "900e7b643736abacf185325ceccdf42518ba6d45d5cae4567f5598c054026354"
+            "url": "https://github.com/OpenListTeam/OpenList/releases/download/v4.1.9/openlist-windows-amd64.zip",
+            "hash": "b68cc16f2cb8fe387efd0ccfba411140d49c313f7fca4445cda02c1a3dfad327"
         },
         "32bit": {
-            "url": "https://github.com/OpenListTeam/OpenList/releases/download/v4.1.8/openlist-windows-386.zip",
-            "hash": "a18c54d436840cfc43963cebf9a7f4a7b992f8b3a723622b10e545e2af7308b0"
+            "url": "https://github.com/OpenListTeam/OpenList/releases/download/v4.1.9/openlist-windows-386.zip",
+            "hash": "800da7f4e71907a84b2f22218a73693c2c26ee2b2ed85bfceaa390dfb5f56dae"
         },
         "arm64": {
-            "url": "https://github.com/OpenListTeam/OpenList/releases/download/v4.1.8/openlist-windows-arm64.zip",
-            "hash": "747630eae7dd081304036c74ff3991a02891119f478f0e3a9f1823a1072a426a"
+            "url": "https://github.com/OpenListTeam/OpenList/releases/download/v4.1.9/openlist-windows-arm64.zip",
+            "hash": "59e64580bcc45829131db7dbfc1c7acc5b64ab09705f6c5e9fe7ff09512caf46"
         }
     },
     "bin": [
