@@ -1,0 +1,22 @@
+{
+    "version": "2.27.2.0",
+    "description": "A lightweight alternative to the Lenovo Vantage Software created for Lenovo Legion laptops",
+    "homepage": "https://github.com/XKaguya/LenovoLegionToolkit",
+    "license": "GPL-3.0-or-later",
+    "suggest": {
+        ".NET Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
+    },
+    "url": "https://github.com/XKaguya/LenovoLegionToolkit/releases/download/v2.27.2.0/LenovoLegionToolkitSetup.exe",
+    "hash": "e1fe993dbc2e3dfb0231eb12d4b7924ab69c0338c0497e73b5e6cad25f174a46",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Lenovo Legion Toolkit.exe",
+            "Lenovo Legion Toolkit"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/XKaguya/LenovoLegionToolkit/releases/download/v$version/LenovoLegionToolkitSetup.exe"
+    }
+}
