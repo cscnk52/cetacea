@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Bilal-AKAG/autogitignore/releases/download/v0.1.3/autogitignore-v0.1.3-x86_64-pc-windows-msvc.zip",
-            "hash": "1aaa4e5c085610ae64c305fb12d1887eaeebdb7a65810c05234b6fce21a7a796"
+            "hash": "f085a8c00c978c169fab9355c7a9d2c564069e5afb1cf5c82f5ea3c99b49c91d"
         }
     },
     "bin": "autogitignore.exe",
