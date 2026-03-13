@@ -19,7 +19,7 @@
     },
     "bin": "ty.exe",
     "checkver": {
-        "github": "https://github.com/astral-sh/ty/releases/tag/0.0.7"
+        "github": "https://github.com/astral-sh/ty"
     },
     "autoupdate": {
         "architecture": {
