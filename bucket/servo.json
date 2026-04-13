@@ -9,7 +9,7 @@
     "bin": "servo.exe",
     "shortcuts": [
         [
-            "servo.exe",
+            "servoshell.exe",
             "Servo"
         ]
     ],
