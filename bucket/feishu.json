@@ -1,6 +1,6 @@
 {
     "##": "This manifest is 64bit only",
-    "version": "7.67.9",
+    "version": "7.68.6",
     "description": "Connect with teammates anytime and anywhere",
     "homepage": "https://feishu.cn/",
     "license": {
@@ -10,8 +10,8 @@
     "notes": "Runtime data are stored in '%APPDATA%\\LarkShell', and are not persisted by Scoop.",
     "architecture": {
         "64bit": {
-            "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/cd01131c/Feishu-win32_x64-7.67.9-signed.exe#/dl.7z",
-            "hash": "md5:3ba94e981fe119933357318cc708d752"
+            "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/93786aa6/Feishu-win32_x64-7.68.6-signed.exe#/dl.7z",
+            "hash": "md5:672a8732636343cc8afcddb4b766b091"
         }
     },
     "extract_to": "app",
