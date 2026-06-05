@@ -1,13 +1,13 @@
 {
-    "version": "6.12.3",
+    "version": "6.12.5",
     "description": "A list making, mind mapping, note taking, focused markup-based writing tool that helps to visualize your ideas with mindmaps and outlines.",
     "homepage": "https://www.effie.pro/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.effie.pro/terms/"
     },
-    "url": "https://download.effie.pro/effie/effieapp_setup_6.12.3.exe",
-    "hash": "577ebda1b86e0358c5cae414126ab243f3c81e27426e6dbe085edfdf816640a6",
+    "url": "https://download.effie.pro/effie/effieapp_setup_6.12.5.exe",
+    "hash": "fb9f971076dee31f6e990736b4ac006c037e8d81cd18002ff387e40bec710478",
     "innosetup": true,
     "shortcuts": [
         [
