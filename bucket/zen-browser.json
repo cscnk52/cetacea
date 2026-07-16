@@ -19,6 +19,7 @@
             "hash": "20067492db1b657bacc4f651a8ddcb68b12e723569d1c9d834474dff914401c3"
         }
     },
+    "extract_dir": "core",
     "post_install": [
         "zen -CreateProfile \"Scoop $persist_dir\\profile\"",
         "$Addition = \"$persist_dir\\addition\"",
@@ -27,7 +28,6 @@
         "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
         "}"
     ],
-    "extract_dir": "core",
     "bin": "zen.exe",
     "shortcuts": [
         [
