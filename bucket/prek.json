@@ -8,10 +8,6 @@
             "url": "https://github.com/j178/prek/releases/download/v0.5.0/prek-x86_64-pc-windows-msvc.zip",
             "hash": "3b1704f9c44d2a5f29af84c18dc5529c2cefab75697bdfdf69074cced1c0533b"
         },
-        "32bit": {
-            "url": "https://github.com/j178/prek/releases/download/v0.5.0/prek-i686-pc-windows-msvc.zip",
-            "hash": "fe921c262d7f955ed033f04075dbedaba5440b48a29dd91706416dad998f87ab"
-        },
         "arm64": {
             "url": "https://github.com/j178/prek/releases/download/v0.5.0/prek-aarch64-pc-windows-msvc.zip",
             "hash": "5b6cf315445f950fd535d181dcd5a446c305b5ca9e444e9aacde6df63a880a40"
@@ -25,9 +21,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/j178/prek/releases/download/v$version/prek-x86_64-pc-windows-msvc.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/j178/prek/releases/download/v$version/prek-i686-pc-windows-msvc.zip"
             },
             "arm64": {
                 "url": "https://github.com/j178/prek/releases/download/v$version/prek-aarch64-pc-windows-msvc.zip"
