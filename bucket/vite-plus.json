@@ -13,17 +13,21 @@
             "hash": "cb86f5bf3237dda04364a519344150b8cf272bfd41fdfacc0f7e0d201e99b79a"
         }
     },
-    "bin": "vp.exe",
+    "bin": [
+        "vp.exe",
+        "vp-shim.exe"
+    ],
     "checkver": {
-        "github": "https://github.com/voidzero-dev/vite-plus"
+        "github": "https://github.com/voidzero-dev/vite-plus",
+        "regex": "([\\d.]+-(?:alpha|beta|rc)[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v$version/vp-setup-x86_64-pc-windows-msvc.exe#/vp.exe"
+                "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v$version/vp-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v$version/vp-setup-aarch64-pc-windows-msvc.exe#/vp.exe"
+                "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v$version/vp-aarch64-pc-windows-msvc.zip"
             }
         }
     }
